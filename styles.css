@@ -52,7 +52,8 @@ body.dark-mode .logo {
   gap: 1rem;
 }
 
-.nav-links a, .nav-links button {
+.nav-links a,
+.nav-links button {
   text-decoration: none;
   color: #000;
   font-weight: 500;
@@ -134,6 +135,20 @@ body.dark-mode .hero span {
   background-color: #333;
 }
 
+.btn-resume {
+  margin-left: 1rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+body.dark-mode .btn-resume {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/* Skills Section */
 .skills {
   padding: 3rem 2rem;
   text-align: center;
@@ -162,6 +177,7 @@ body.dark-mode .skills-list li {
   color: #ddd;
 }
 
+/* Education Section */
 .education {
   padding: 3rem 2rem;
   text-align: center;
@@ -178,6 +194,7 @@ body.dark-mode .edu-item {
   border-left: 4px solid #fff;
 }
 
+/* Contact Section */
 .contact {
   padding: 3rem 2rem;
   text-align: center;
@@ -196,6 +213,7 @@ body.dark-mode .contact a {
   color: #fff;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 2rem 1rem;
@@ -209,6 +227,30 @@ body.dark-mode footer {
   color: #aaa;
 }
 
+.social-icons {
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  margin: 0 0.75rem;
+  font-size: 1.5rem;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+body.dark-mode .social-icons a {
+  color: #fff;
+}
+
+.social-icons a:hover {
+  color: #555;
+}
+
+body.dark-mode .social-icons a:hover {
+  color: #ccc;
+}
+
+/* Scroll Animations */
 .animate-on-scroll {
   opacity: 0;
   transform: translateY(40px);

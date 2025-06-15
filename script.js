@@ -18,10 +18,8 @@ themeToggle.addEventListener('click', () => {
 
 // Scroll-triggered animations
 const scrollElements = document.querySelectorAll(".animate-on-scroll");
-
 window.addEventListener("scroll", () => {
   const triggerBottom = window.innerHeight * 0.8;
-
   scrollElements.forEach(el => {
     const top = el.getBoundingClientRect().top;
     if (top < triggerBottom) {
